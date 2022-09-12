@@ -1,0 +1,92 @@
+# repository is all of my python calculators as i learn python. this one is my first and simplest on my first day of learning python. 2 integers, 1 operation between them.
+# will iterate and include new calculators until can make a calculator that does any combo of operations with any number of integers, although i think i can make it now i'll try later tonight
+
+print("Welcome to my 2 Integer Calculator")
+
+import time
+
+int1 = input("Insert Integer1 to operate with ")
+int2 = input("Insert Integer2 to operate with ")
+
+operation = input("What operation would you like to perform (+, -, *, /) ")
+
+if operation == "+":
+    print("Addition selected, adding...")
+    time.sleep(1)
+    print("Adding...")
+    time.sleep(1)
+    print("Adding...")
+    time.sleep(1)
+    print(int(int1) + int(int2))
+
+if operation == "-":
+    print("Subtraction selected, subtracting...")
+    time.sleep(1)
+    print("Subtracting...")
+    time.sleep(1)
+    print("Subtracting...")
+    time.sleep(1)
+    print(int(int1) - int(int2))
+
+if operation == "*":
+    print("Multiplication selected, multiplying...")
+    time.sleep(1)
+    print("Multiplying...")
+    time.sleep(1)
+    print("Multiplying...")
+    time.sleep(1)
+    print(int(int1) * int(int2))
+
+if operation == "/":
+    print("Division selected, dividing...")
+    time.sleep(1)
+    print("Dividing...")
+    time.sleep(1)
+    print("Dividing...")
+    time.sleep(1)
+    print(int(int1) / int(int2))
+
+print("Welcome to my 2 Integer Calculator")
+
+import time
+
+int1 = input("Insert Integer1 to operate with ")
+int2 = input("Insert Integer2 to operate with ")
+
+operation = input("What operation would you like to perform (+, -, *, /) ")
+
+if operation == "+":
+    print("Addition selected, adding...")
+    time.sleep(1)
+    print("Adding...")
+    time.sleep(1)
+    print("Adding...")
+    time.sleep(1)
+    print(int(int1) + int(int2))
+
+if operation == "-":
+    print("Subtraction selected, subtracting...")
+    time.sleep(1)
+    print("Subtracting...")
+    time.sleep(1)
+    print("Subtracting...")
+    time.sleep(1)
+    print(int(int1) - int(int2))
+
+if operation == "*":
+    print("Multiplication selected, multiplying...")
+    time.sleep(1)
+    print("Multiplying...")
+    time.sleep(1)
+    print("Multiplying...")
+    time.sleep(1)
+    print(int(int1) * int(int2))
+
+if operation == "/":
+    print("Division selected, dividing...")
+    time.sleep(1)
+    print("Dividing...")
+    time.sleep(1)
+    print("Dividing...")
+    time.sleep(1)
+    print(int(int1) / int(int2))
